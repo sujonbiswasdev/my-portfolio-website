@@ -7,6 +7,7 @@ const createPost = async (req:Request,res:Response)=>{
         const result = await postService.createPost(req.body)
         res.status(201).json(result)
     } catch (error) {
+        res.status(400).json({error})
         
     }
 

@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sujonbiswasdev/my-portfolio-website.git",
-    "dev":"npx tsx watch src/server.ts"
+    "dev": "npx tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "^7.2.0",
+    "better-auth": "^1.4.10",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "pg": "^8.16.3"
